@@ -12,10 +12,10 @@ body div h1 {
 body div section:first-of-type {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 body div section:first-of-type article {
-  padding: 10px;
+  padding: 0.625rem;
 }
 body div section:first-of-type article:nth-of-type(odd) {
   color: blue;

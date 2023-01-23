@@ -21,9 +21,9 @@ body{
             &:first-of-type{
                 display: flex;
                 justify-content: space-between;
-                padding-bottom: 10px;
+                padding-bottom: fm.px-to-rem(10);
                 article{
-                    padding: 10px;
+                    padding: fm.px-to-rem(10);
                     &:nth-of-type(odd){
                         @include article-card(vm.$color-accent, vm.$color-secondary )
                     }
